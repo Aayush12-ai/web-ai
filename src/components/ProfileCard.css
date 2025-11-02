@@ -1,0 +1,103 @@
+.profile-card {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.profile-card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #007bff;
+}
+
+.profile-user-info h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #007bff;
+}
+
+.profile-user-info p {
+  margin: 5px 0;
+  font-size: 0.9em;
+  color: #bbb;
+}
+
+.profile-handle {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.profile-card-body {
+  padding-top: 15px;
+  border-top: 1px solid #333;
+}
+
+.profile-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.status-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.status-indicator.online {
+  background-color: #28a745;
+}
+
+.status-indicator.offline {
+  background-color: #dc3545;
+}
+
+.status-indicator.away {
+  background-color: #ffc107;
+}
+
+.contact-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}
+
+/* Tilt effects (basic example, actual implementation might use a library) */
+.profile-card.tilt {
+  transition: transform 0.2s ease-out;
+}
+
+.profile-card.tilt:hover {
+  transform: perspective(1000px) rotateX(5deg) rotateY(5deg) scale(1.02);
+}
+
+.profile-card.mobile-tilt {
+  /* Mobile specific tilt styles if needed */
+}
