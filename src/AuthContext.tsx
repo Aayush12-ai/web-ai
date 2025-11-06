@@ -14,6 +14,12 @@ interface AuthProviderProps {
   children: ReactNode;
 }
 
+export type Question = {
+  question: string;
+  answer: string;
+  hint: string;
+};
+
 export const AuthProvider = ({ children }: AuthProviderProps) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [points, setPoints] = useState(0);

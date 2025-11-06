@@ -5,27 +5,27 @@ const testimonials = [
   {
     quote: 'EliteLabs made learning Linux so much fun! The gamified approach is genius.',
     author: 'Alice',
-    avatar: 'https://i.pravatar.cc/150?img=11',
+    avatar: 'https://randomuser.me/api/portraits/women/11.jpg',
   },
   {
     quote: 'I finally understand the Linux command line. The challenges are a great way to practice.',
     author: 'Bob',
-    avatar: 'https://i.pravatar.cc/150?img=12',
+    avatar: 'https://randomuser.me/api/portraits/men/12.jpg',
   },
   {
     quote: 'The community is so helpful and the leaderboard keeps me motivated.',
     author: 'Charlie',
-    avatar: 'https://i.pravatar.cc/150?img=13',
+    avatar: 'https://randomuser.me/api/portraits/women/13.jpg',
   },
   {
     quote: 'The real-world labs are a game-changer. I feel so much more confident in my skills.',
     author: 'David',
-    avatar: 'https://i.pravatar.cc/150?img=14',
+    avatar: 'https://randomuser.me/api/portraits/men/14.jpg',
   },
   {
     quote: 'I never thought I could learn Linux, but EliteLabs made it possible. Highly recommended!',
     author: 'Eve',
-    avatar: 'https://i.pravatar.cc/150?img=15',
+    avatar: 'https://randomuser.me/api/portraits/women/15.jpg',
   },
 ];
 

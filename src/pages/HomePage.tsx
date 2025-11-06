@@ -5,6 +5,7 @@ import About from '../components/About';
 import Features from '../components/Features';
 import LiveLeaderboard from '../components/LiveLeaderboard';
 import PopularChallenges from '../components/PopularChallenges';
+import XssLab from '../components/XssLab';
 import DocsPreview from '../components/DocsPreview';
 import Testimonials from '../components/Testimonials';
 import CallToAction from '../components/CallToAction';
@@ -24,6 +25,8 @@ const HomePage = () => {
       <div id="challenges">
         <PopularChallenges />
       </div>
+      <XssLab />
+
       <LiveLeaderboard />
       <DocsPreview />
       <Testimonials />

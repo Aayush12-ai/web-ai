@@ -13,11 +13,11 @@ const DocsPreview = () => {
   return (
     <div className="py-20 bg-gray-100 dark:bg-gray-800">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-12 text-gray-800 dark:text-white">Explore Our Docs</h2>
+        <h2 className="text-3xl font-bold mb-12 text-primary dark:text-light-gray">Explore Our Docs</h2>
         <div className="flex flex-wrap justify-center gap-4">
           {topics.map((topic, index) => (
             <div key={index} className="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">
-              <h3 className="text-lg font-bold text-gray-800 dark:text-white">{topic}</h3>
+              <h3 className="text-lg font-bold text-primary dark:text-light-gray">{topic}</h3>
             </div>
           ))}
         </div>
